@@ -1,6 +1,9 @@
 <?php
     session_start();
-
+$r = mt_rand( 128, 255 );
+$g = mt_rand( 128, 255 );
+$b = mt_rand( 128, 255 );
+$bgcolor = 'rgba('.$r.','.$g.','.$b.')';
 ?>
 <!doctype html>
 <html lang="en" data-theme="light">
@@ -16,10 +19,11 @@
         }
         button{
             padding: 0 30px;
-            margin: 30px 200px 30px 200px;
+            margin: 30px 100px 30px 100px;
             border-radius: 5px;
             background-color: aquamarine;
             font-size: 15px;
+
         }
         table{
             position: absolute;
@@ -32,6 +36,7 @@
             width: 10%;
             height: 10%;
             background-color: black;
+
         }
         header{
             display: flex;
@@ -52,124 +57,124 @@
 
     <table>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
+            <td style="background-color: <?php echo $bgcolor?>"></td>
         </tr>
     </table>
 </body>
